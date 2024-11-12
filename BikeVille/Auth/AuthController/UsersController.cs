@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using BikeVille.Auth;
 using BikeVille.Auth.AuthContext;
 using BikeVille.Entity.EntityContext;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using System.Security.Cryptography;
+using BikeVille.CriptingDecripting;
 
 namespace BikeVille.Auth.AuthController
 {
@@ -23,6 +26,7 @@ namespace BikeVille.Auth.AuthController
             _authContext = authContext;
             
         }
+        
 
         // GET: api/Users
         [HttpGet("Index")]
@@ -79,8 +83,25 @@ namespace BikeVille.Auth.AuthController
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("Add")]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<User>> PostUser(UserDto userDto)
         {
+            KeyValuePair<string, string> passHashSalt = SaltEncrypt.SaltEncryptPass(userDto.Password);
+
+            var user =new User()
+            {
+                FirstName = userDto.FirstName,
+                MiddleName = userDto.MiddleName,
+                LastName = userDto.LastName,
+                Suffix = userDto.Suffix,
+                EmailAddress = userDto.EmailAddress,
+                Phone = userDto.Phone,
+                PasswordHash = passHashSalt.Key,
+                PasswordSalt = passHashSalt.Value,
+                Role = userDto.Role,
+                Rowguid=Guid.NewGuid(),
+
+            };
+            
             _authContext.Users.Add(user);
             await _authContext.SaveChangesAsync();
 

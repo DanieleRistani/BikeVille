@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace BikeVille.Auth;
 
@@ -29,4 +31,6 @@ public partial class User
     public string? Role { get; set; }
 
     public Guid Rowguid { get; set; }
+
+   
 }

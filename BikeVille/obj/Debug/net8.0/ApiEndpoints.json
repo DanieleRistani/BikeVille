@@ -427,8 +427,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "BikeVille.Auth.User",
+        "Name": "userDto",
+        "Type": "BikeVille.Auth.UserDto",
         "IsRequired": true
       }
     ],
