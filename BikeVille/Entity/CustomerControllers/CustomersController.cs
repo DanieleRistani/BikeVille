@@ -25,14 +25,14 @@ namespace BikeVille.Entity.CustomerControllers
         [HttpGet("Index")]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         {
-            return await _context.Customers.Include(c=>c.SalesOrderHeaders).Include(c=>c.CustomerAddresses).ToListAsync();
+            return await _context.Customers.Include(c=>c.SalesOrderHeaders).Include(c=>c.CustomerAddresses).ThenInclude(ca=>ca.Address).ToListAsync();
         }
 
         // GET: api/Customers/5
         [HttpGet("Details/{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(int id)
         {
-            var customer = await _context.Customers.Include(c => c.SalesOrderHeaders).Include(c => c.CustomerAddresses).FirstOrDefaultAsync(c=>c.CustomerId==id);
+            var customer = await _context.Customers.Include(c => c.SalesOrderHeaders).Include(c => c.CustomerAddresses).ThenInclude(ca => ca.Address).FirstOrDefaultAsync(c=>c.CustomerId==id);
 
             if (customer == null)
             {
