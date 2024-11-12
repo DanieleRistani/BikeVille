@@ -28,5 +28,5 @@ public partial class User
 
     public string? Role { get; set; }
 
-    public Guid? Rowguid { get; set; }
+    public Guid Rowguid { get; set; }
 }

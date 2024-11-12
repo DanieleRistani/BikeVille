@@ -38,6 +38,7 @@ public partial class AdventureWorksLt2019usersInfoContext :DbContext
                 .IsFixedLength();
             entity.Property(e => e.Suffix).HasMaxLength(10);
             entity.Property(e => e.Title).HasMaxLength(8);
+            entity.Property(e=> e.Rowguid).IsRequired();
         });
 
         OnModelCreatingPartial(modelBuilder);

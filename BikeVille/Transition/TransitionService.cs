@@ -82,28 +82,7 @@ namespace BikeVille.Transition
             _logger.LogInformation("Transition completed.");
         }
 
-        //private async Task TransitionInfoCustomerDelete( AdventureWorksLt2019Context context)
-        //{
-
-        //    int counter = 1;
-        //    context.Customers.ForEachAsync(async customer =>
-        //    {
-                
-
-        //        // Annulla i campi sensibili
-        //        customer.EmailAddress = null;
-        //        customer.Phone = null;
-        //        customer.PasswordHash = null;
-        //        customer.PasswordSalt = null;
-
-        //        // Salva le modifiche nel contesto Customer
-        //        await context.SaveChangesAsync();
-        //        counter++;
-
-        //    });
-
-            
-        //}
+        
 
     }
 }
