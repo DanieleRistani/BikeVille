@@ -28,11 +28,20 @@ namespace BikeVille
             builder.Services.AddDbContext<AdventureWorksLt2019Context>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("BikeVilleDb")));
             //auth
             builder.Services.AddDbContext<AdventureWorksLt2019usersInfoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("BikeVilleUsersDb")));
-                     
+            //cors
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", policy =>
+                {
+                    policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+                });
+            });
+
 
             var app = builder.Build();
 
-           
+            //cors
+            app.UseCors("AllowSpecificOrigin");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -41,7 +50,7 @@ namespace BikeVille
             }
 
             app.UseHttpsRedirection();
-
+            
             app.UseAuthentication();
            
 

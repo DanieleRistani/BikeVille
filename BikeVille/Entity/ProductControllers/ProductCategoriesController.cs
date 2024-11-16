@@ -10,7 +10,7 @@ using BikeVille.Entity.EntityContext;
 
 namespace BikeVille.Entity.ProductControllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductCategoriesController : ControllerBase
     {
@@ -22,14 +22,14 @@ namespace BikeVille.Entity.ProductControllers
         }
 
         // GET: api/ProductCategories
-        [HttpGet]
+        [HttpGet("Index")]
         public async Task<ActionResult<IEnumerable<ProductCategory>>> GetProductCategories()
         {
             return await _context.ProductCategories.Include(c=>c.Products).ToListAsync();
         }
 
         // GET: api/ProductCategories/5
-        [HttpGet("{id}")]
+        [HttpGet("Details/{id}")]
         public async Task<ActionResult<ProductCategory>> GetProductCategory(int id)
         {
             var productCategory = await _context.ProductCategories.Include(c => c.Products).FirstOrDefaultAsync(c=>c.ProductCategoryId==id);

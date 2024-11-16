@@ -8152,24 +8152,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniele\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Desktop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniele\\wa\\BikeVille\\BikeVille\\BikeVille.csproj",
+      "projectUniqueName": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj",
       "projectName": "BikeVille",
-      "projectPath": "C:\\Users\\Daniele\\wa\\BikeVille\\BikeVille\\BikeVille.csproj",
-      "packagesPath": "C:\\Users\\Daniele\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniele\\wa\\BikeVille\\BikeVille\\obj\\",
+      "projectPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj",
+      "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Daniele\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
