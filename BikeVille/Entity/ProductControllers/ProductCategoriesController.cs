@@ -32,7 +32,7 @@ namespace BikeVille.Entity.ProductControllers
         [HttpGet("Details/{id}")]
         public async Task<ActionResult<ProductCategory>> GetProductCategory(int id)
         {
-            var productCategory = await _context.ProductCategories.Include(c => c.Products).FirstOrDefaultAsync(c=>c.ProductCategoryId==id);
+            var productCategory = await _context.ProductCategories.Include(c => c.Products).Include(c=>c.InverseParentProductCategory).FirstOrDefaultAsync(c=>c.ProductCategoryId==id);
 
             if (productCategory == null)
             {

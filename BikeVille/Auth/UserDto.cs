@@ -22,6 +22,6 @@
 
         public string? Role { get; set; }
 
-        public Guid Rowguid { get; set; }
+       
     }
 }
