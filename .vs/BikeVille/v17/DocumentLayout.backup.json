@@ -98,8 +98,7 @@
               "RelativeToolTip": "BikeVille\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T14:42:08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T14:42:08Z"
             },
             {
               "$type": "Document",
@@ -171,8 +170,7 @@
               "RelativeToolTip": "BikeVille\\Auth\\UserDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:24:35.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:24:35.885Z"
             },
             {
               "$type": "Document",
@@ -182,7 +180,7 @@
               "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
               "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
               "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:50:39.997Z",
               "EditorCaption": ""

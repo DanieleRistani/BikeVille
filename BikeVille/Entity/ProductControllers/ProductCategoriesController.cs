@@ -25,14 +25,14 @@ namespace BikeVille.Entity.ProductControllers
         [HttpGet("Index")]
         public async Task<ActionResult<IEnumerable<ProductCategory>>> GetProductCategories()
         {
-            return await _context.ProductCategories.Include(c=>c.Products).ToListAsync();
+            return await _context.ProductCategories.Include(c=>c.Products).Include(c => c.InverseParentProductCategory).ThenInclude(ip=>ip.Products).ToListAsync();
         }
 
         // GET: api/ProductCategories/5
         [HttpGet("Details/{id}")]
         public async Task<ActionResult<ProductCategory>> GetProductCategory(int id)
         {
-            var productCategory = await _context.ProductCategories.Include(c => c.Products).Include(c=>c.InverseParentProductCategory).FirstOrDefaultAsync(c=>c.ProductCategoryId==id);
+            var productCategory = await _context.ProductCategories.Include(c => c.Products).Include(c=>c.InverseParentProductCategory).ThenInclude(ip => ip.Products).FirstOrDefaultAsync(c=>c.ProductCategoryId==id);
 
             if (productCategory == null)
             {
