@@ -25,5 +25,17 @@ namespace BikeVille.CriptingDecripting
 
             return valuePairEncryption;
         }
+
+        public static string SaltDecryptPass(string sValue, string sSalt)
+        {
+            string hashValue = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                password: sValue,
+                salt: Convert.FromBase64String(sSalt),
+                prf: KeyDerivationPrf.HMACSHA256,
+                iterationCount: 10000,
+                numBytesRequested: 32));
+
+            return hashValue;
+        }
     }
 }

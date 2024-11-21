@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T20:33:36.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\appsettings.json",
               "RelativeDocumentMoniker": "BikeVille\\appsettings.json",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CustomerAddress.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerAddress.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\CustomerAddress.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\User.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\User.cs",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\Customer.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\Customer.cs",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthController\\UsersController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthController\\UsersController.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\UserDto.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\UserDto.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductCategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
@@ -182,12 +199,11 @@
               "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:50:39.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:50:39.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SaltEncrypt.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
               "RelativeDocumentMoniker": "BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
@@ -199,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductCategory.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductCategory.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductCategory.cs",
@@ -211,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Program.cs",
               "RelativeDocumentMoniker": "BikeVille\\Program.cs",
@@ -223,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SalesOrderHeader.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesOrderHeader.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesOrderHeader.cs",
@@ -235,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SalesOrderHeadersController.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
@@ -247,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AdventureWorksLt2019usersInfoContext.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
@@ -259,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AdventureWorksLt2019Context.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
