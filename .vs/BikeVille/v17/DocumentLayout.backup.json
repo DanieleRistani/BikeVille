@@ -1,69 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\",
+  "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\customercontrollers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\customercontrollers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\loginjwt\\loginjwtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\loginjwt\\loginjwtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\salesorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\salesorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\auth\\authcontroller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\authcontroller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\authcontroller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\salescontrollers\\salesorderheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\salescontrollers\\salesorderheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\loginjwt\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\loginjwt\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\criptingdecripting\\saltencrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\loginjwt\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\loginjwt\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\vproductmodelcatalogdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\vproductmodelcatalogdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\vproductanddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\vproductanddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\vgetallcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\vgetallcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\alluniqueproductswithoutsomerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\alluniqueproductswithoutsomerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\alluniqueproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\alluniqueproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\allproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\allproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\criptingdecripting\\saltencrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\criptingdecripting\\saltencrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\customercontrollers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\customercontrollers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\salesorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\salesorderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\salescontrollers\\salesorderheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\salescontrollers\\salesorderheaderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\auth\\authcontext\\adventureworkslt2019usersinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\auth\\authcontext\\adventureworkslt2019usersinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\auth\\authcontext\\adventureworkslt2019usersinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikeville\\bikeville\\entity\\entitycontext\\adventureworkslt2019context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\entitycontext\\adventureworkslt2019context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\entitycontext\\adventureworkslt2019context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,196 +134,341 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginJwtController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\LoginJwtController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Auth\\LoginJwt\\LoginJwtController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\LoginJwtController.cs*",
+              "RelativeToolTip": "BikeVille\\Auth\\LoginJwt\\LoginJwtController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:30:50.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Auth\\LoginJwt\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\JwtSettings.cs",
+              "RelativeToolTip": "BikeVille\\Auth\\LoginJwt\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:30:48.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Credentials.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\Credentials.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Auth\\LoginJwt\\Credentials.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\LoginJwt\\Credentials.cs",
+              "RelativeToolTip": "BikeVille\\Auth\\LoginJwt\\Credentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:30:46.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AllUniqueProductsWithoutSomeRow.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllUniqueProductsWithoutSomeRow.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\AllUniqueProductsWithoutSomeRow.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllUniqueProductsWithoutSomeRow.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\AllUniqueProductsWithoutSomeRow.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:34:03.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AllUniqueProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllUniqueProduct.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\AllUniqueProduct.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllUniqueProduct.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\AllUniqueProduct.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:33:48.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Program.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Program.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Program.cs",
+              "RelativeToolTip": "BikeVille\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:59:37.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VProductModelCatalogDescription.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VProductModelCatalogDescription.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\VProductModelCatalogDescription.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VProductModelCatalogDescription.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\VProductModelCatalogDescription.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:34:20.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllProduct.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\AllProduct.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\AllProduct.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\AllProduct.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:33:20.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Product.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\Product.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:32:58.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\appsettings.json",
+              "RelativeDocumentMoniker": "BikeVille\\appsettings.json",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\appsettings.json",
+              "RelativeToolTip": "BikeVille\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T14:42:08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\AuthController\\UsersController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthController\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\AuthController\\UsersController.cs",
+              "RelativeToolTip": "BikeVille\\Auth\\AuthController\\UsersController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:23:30.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VProductAndDescription.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VProductAndDescription.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\VProductAndDescription.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VProductAndDescription.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\VProductAndDescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:34:14.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VGetAllCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VGetAllCategory.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\VGetAllCategory.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\VGetAllCategory.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\VGetAllCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:34:28.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
               "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T20:33:36.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\appsettings.json",
-              "RelativeDocumentMoniker": "BikeVille\\appsettings.json",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\appsettings.json",
-              "RelativeToolTip": "BikeVille\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T14:42:08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "CustomerAddress.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerAddress.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\CustomerAddress.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\CustomerAddress.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerAddress.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\CustomerAddress.cs",
               "RelativeToolTip": "BikeVille\\Entity\\CustomerAddress.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T11:20:01.988Z"
+              "WhenOpened": "2024-11-12T11:20:01.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\User.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\User.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\User.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\User.cs",
               "RelativeToolTip": "BikeVille\\Auth\\User.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAxwCIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:29:46.398Z"
+              "WhenOpened": "2024-11-12T10:29:46.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Customer.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\Customer.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\Customer.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Customer.cs",
               "RelativeToolTip": "BikeVille\\Entity\\Customer.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:00:57.452Z"
+              "WhenOpened": "2024-11-12T10:00:57.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
               "RelativeToolTip": "BikeVille\\Entity\\CustomerControllers\\CustomersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:11:47.023Z"
+              "WhenOpened": "2024-11-12T09:11:47.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthController\\UsersController.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthController\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthController\\UsersController.cs",
-              "RelativeToolTip": "BikeVille\\Auth\\AuthController\\UsersController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAA7wGQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:23:30.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\UserDto.cs",
               "RelativeDocumentMoniker": "BikeVille\\Auth\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\UserDto.cs",
               "RelativeToolTip": "BikeVille\\Auth\\UserDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABQwBgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:24:35.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductCategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:50:39.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SaltEncrypt.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
-              "RelativeDocumentMoniker": "BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
-              "RelativeToolTip": "BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:35:09.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductCategory.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductCategory.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\ProductCategory.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\ProductCategory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:50:39.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Program.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Program.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Program.cs",
-              "RelativeToolTip": "BikeVille\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvzQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:59:37.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SalesOrderHeader.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesOrderHeader.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesOrderHeader.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesOrderHeader.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\SalesOrderHeader.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAgwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T11:33:04.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SalesOrderHeadersController.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAcwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:58:36.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdventureWorksLt2019usersInfoContext.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
-              "RelativeToolTip": "BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wCgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:30:30.858Z"
+              "WhenOpened": "2024-11-12T12:24:35.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ProductCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:50:39.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SaltEncrypt.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
+              "RelativeDocumentMoniker": "BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
+              "RelativeToolTip": "BikeVille\\CriptingDecripting\\SaltEncrypt.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:35:09.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductCategory.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductCategory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:50:39.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SalesOrderHeader.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\SalesOrderHeader.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesOrderHeader.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\SalesOrderHeader.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\SalesOrderHeader.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:33:04.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SalesOrderHeadersController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\SalesControllers\\SalesOrderHeadersController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:58:36.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdventureWorksLt2019usersInfoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
+              "RelativeToolTip": "BikeVille\\Auth\\AuthContext\\AdventureWorksLt2019usersInfoContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:30:30.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "AdventureWorksLt2019Context.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "RelativeToolTip": "BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "ViewState": "AgIAAKAAAAAAAAAAAAD4v6wAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T15:34:11.502Z"
+              "WhenOpened": "2024-11-11T15:34:11.502Z",
+              "EditorCaption": ""
             }
           ]
         },

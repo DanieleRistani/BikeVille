@@ -109,6 +109,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AuthJwt.Auth.LoginJwtController",
+    "Method": "Login",
+    "RelativePath": "LoginJwt/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "AuthJwt.Auth.Credentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BikeVille.Entity.ProductControllers.ProductCategoriesController",
     "Method": "GetProductCategory",
     "RelativePath": "ProductCategories/Details/{id}",
@@ -429,6 +445,32 @@
       {
         "Name": "userDto",
         "Type": "BikeVille.Auth.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BikeVille.Auth.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BikeVille.Auth.AuthController.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "Users/AuthUser/{emailAddress}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailAddress",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

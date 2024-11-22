@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj": {}
+    "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\BikeVille.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj": {
+    "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\BikeVille.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\BikeVille.csproj",
         "projectName": "BikeVille",
-        "projectPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\BikeVille.csproj",
+        "projectPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\BikeVille.csproj",
         "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVille\\BikeVille\\obj\\",
+        "outputPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"

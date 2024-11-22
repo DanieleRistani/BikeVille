@@ -49,6 +49,21 @@ namespace BikeVille.Auth.AuthController
             return user;
         }
 
+
+        
+        [HttpGet("AuthUser/{emailAddress}")]
+        public async Task<ActionResult<User>> GetUser(string emailAddress)
+        {
+            var user = await _authContext.Users.FirstOrDefaultAsync(x => x.EmailAddress.Equals(emailAddress));
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return user;
+        }
+
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("Update/{id}")]
