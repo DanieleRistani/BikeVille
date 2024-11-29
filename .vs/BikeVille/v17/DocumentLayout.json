@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productcontrollers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|c:\\users\\desktop\\wa\\dotnetcorso\\bikevillefinalproject\\bikeville\\bikeville\\entity\\entitycontext\\adventureworkslt2019context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68FACB3-0AF9-4122-B18D-3A932508B1A0}|BikeVille\\BikeVille.csproj|solutionrelative:bikeville\\entity\\entitycontext\\adventureworkslt2019context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +54,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:45:24.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductModel.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductModel.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:41:16.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\Product.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\Product.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:41:02.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwC8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:40:05.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\appsettings.json",
+              "RelativeDocumentMoniker": "BikeVille\\appsettings.json",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\appsettings.json",
+              "RelativeToolTip": "BikeVille\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T08:41:06.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AdventureWorksLt2019Context.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "RelativeDocumentMoniker": "BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "ToolTip": "C:\\Users\\Desktop\\WA\\DotNetCorso\\BikeVilleFinalProject\\BikeVille\\BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
               "RelativeToolTip": "BikeVille\\Entity\\EntityContext\\AdventureWorksLt2019Context.cs",
-              "ViewState": "AgIAACMCAAAAAAAAAAAAADoCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4CAAAAAAAAAAAAADoCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T21:17:30.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T21:17:30.998Z"
             }
           ]
         },

@@ -1035,3 +1035,7 @@ C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\De
 C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\Debug\net8.0\BikeVille.genruntimeconfig.cache
 C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\Debug\net8.0\ref\BikeVille.dll
 C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\bin\Debug\net8.0\BikeVille.staticwebassets.endpoints.json
+C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\Debug\net8.0\staticwebassets\msbuild.BikeVille.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Desktop\WA\DotNetCorso\BikeVilleFinalProject\BikeVille\BikeVille\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

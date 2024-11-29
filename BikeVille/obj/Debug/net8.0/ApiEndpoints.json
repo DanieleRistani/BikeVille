@@ -286,6 +286,32 @@
   },
   {
     "ContainingType": "BikeVille.Entity.ProductControllers.ProductsController",
+    "Method": "GetProduct",
+    "RelativePath": "Products/Filter/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BikeVille.Entity.Product, BikeVille, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BikeVille.Entity.ProductControllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "Products/Index",
     "HttpMethod": "GET",
