@@ -109,6 +109,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AuthJwt.Mail.EmailController",
+    "Method": "successRegister",
+    "RelativePath": "Email/successRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AuthJwt.Mail.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthJwt.Mail.EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "Email/toBeAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AuthJwt.Mail.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AuthJwt.Auth.LoginJwtController",
     "Method": "Login",
     "RelativePath": "LoginJwt/Login",
