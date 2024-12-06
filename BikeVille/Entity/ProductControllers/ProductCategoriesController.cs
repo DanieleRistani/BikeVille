@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BikeVille.Entity;
 using BikeVille.Entity.EntityContext;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BikeVille.Entity.ProductControllers
 {

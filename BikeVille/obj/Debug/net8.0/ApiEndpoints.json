@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "BikeVille.Admin.AdminController",
+    "Method": "toBeAdmin",
+    "RelativePath": "Admin/toBeAdmin/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BikeVille.Entity.CustomerControllers.CustomersController",
     "Method": "PostCustomer",
     "RelativePath": "Customers/Add",

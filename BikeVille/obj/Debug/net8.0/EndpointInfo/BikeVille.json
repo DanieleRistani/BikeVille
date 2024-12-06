@@ -5,6 +5,28 @@
     "version": "1.0"
   },
   "paths": {
+    "/Admin/toBeAdmin/{email}": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Customers/Index": {
       "get": {
         "tags": [
