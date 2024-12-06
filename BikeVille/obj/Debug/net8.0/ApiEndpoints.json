@@ -292,6 +292,32 @@
   },
   {
     "ContainingType": "BikeVille.Entity.ProductControllers.ProductsController",
+    "Method": "GetProductForCart",
+    "RelativePath": "Products/addCart/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BikeVille.Entity.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BikeVille.Entity.ProductControllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "Products/Delete/{id}",
     "HttpMethod": "DELETE",

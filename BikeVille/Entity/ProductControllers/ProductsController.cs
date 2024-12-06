@@ -42,6 +42,19 @@ namespace BikeVille.Entity.ProductControllers
             return product;
         }
 
+        [HttpGet("addCart/{id}")]
+        public async Task<ActionResult<Product>> GetProductForCart(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return product;
+        }
+
         [HttpGet("Filter/{name}")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProduct(string name)
         {
