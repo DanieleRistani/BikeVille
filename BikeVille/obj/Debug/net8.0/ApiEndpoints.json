@@ -126,6 +126,22 @@
   },
   {
     "ContainingType": "AuthJwt.Mail.EmailController",
+    "Method": "SendEmailrecoverPassword",
+    "RelativePath": "Email/recoverPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AuthJwt.Mail.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthJwt.Mail.EmailController",
     "Method": "successRegister",
     "RelativePath": "Email/successRegister",
     "HttpMethod": "POST",

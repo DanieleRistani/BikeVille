@@ -6,7 +6,6 @@ namespace BikeVille.Entity
     {
         public SalesOrderHeader SalesOrderHeader { get; set; }
         public User user { get; set; }
-
         public string CompanyName { get; set; }
     }
 }

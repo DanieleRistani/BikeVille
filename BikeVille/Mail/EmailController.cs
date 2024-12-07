@@ -70,6 +70,37 @@ namespace AuthJwt.Mail
                 return StatusCode(500, new { error = ex.Message });
             }
         }
+
+        [HttpPost("recoverPassword")]
+        public async Task<IActionResult> SendEmailrecoverPassword([FromBody] EmailRequest request)
+        {
+            try
+            {
+                var smtpClient = new SmtpClient("smtp.mailtrap.io")
+                {
+                    Port = 2525,
+                    Credentials = new NetworkCredential("4e2a2918d1d033", "0c9cb1af6d3cf8"),
+                    EnableSsl = true,
+                };
+
+                var mailMessage = new MailMessage
+                {
+                    From = new MailAddress("testemaildan98202@gmail.com"),
+                    Subject = "Recupero password",
+                    Body = request.Message,
+                    IsBodyHtml = true,
+                };
+                mailMessage.To.Add(request.ToEmail);
+
+                await smtpClient.SendMailAsync(mailMessage);
+
+                return Ok(new { message = "Email inviata con successo" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = ex.Message });
+            }
+        }
     }
 }
 
