@@ -684,5 +684,52 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BikeVille.Auth.AuthController.UsersController",
+    "Method": "PutUpdatePass",
+    "RelativePath": "Users/UpdatePass",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePassRequest",
+        "Type": "BikeVille.Auth.ChangePassRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BikeVille.Auth.AuthController.UsersController",
+    "Method": "GetUserPass",
+    "RelativePath": "Users/UserPass/{password}/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

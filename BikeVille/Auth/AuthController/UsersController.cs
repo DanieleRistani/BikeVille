@@ -49,8 +49,19 @@ namespace BikeVille.Auth.AuthController
             return user;
         }
 
+        [HttpGet("UserPass/{password}/{id}")]
+        public async Task<ActionResult<bool>> GetUserPass(int id, string password)
+        {
+            var user = await _authContext.Users.FindAsync(id);
+            if(SaltEncrypt.SaltDecryptPass(password, user.PasswordSalt) == user.PasswordHash){
+                return true;
+            }
+            return false;
+            
+        }
 
-        
+
+
         [HttpGet("AuthUser/{emailAddress}")]
         public async Task<ActionResult<User>> GetUser(string emailAddress)
         {
@@ -93,6 +104,24 @@ namespace BikeVille.Auth.AuthController
             }
 
             return NoContent();
+        }
+        [HttpPut("UpdatePass")]
+        public async Task<IActionResult> PutUpdatePass([FromBody] ChangePassRequest changePassRequest)
+        {
+            var user = await _authContext.Users.FindAsync(changePassRequest.Id);
+            KeyValuePair<string, string> passHashSalt = SaltEncrypt.SaltEncryptPass(changePassRequest.Password);
+            if (user == null)
+            {
+                return BadRequest();
+            }
+            user.PasswordHash = passHashSalt.Key;
+            user.PasswordSalt = passHashSalt.Value;
+            _authContext.Entry(user).State = EntityState.Modified;
+                await _authContext.SaveChangesAsync();
+           
+            return NoContent();
+
+           
         }
 
         // POST: api/Users
