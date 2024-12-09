@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "59G9tSl3fywZr2i1r3b0HKbVp+a+gWjzNqOp4tOL478=",
+  "Hash": "AMIydh8CSzj/UV0IAZaM07ffmyuDwUMenpKuVOigHUw=",
   "Source": "BikeVille",
   "BasePath": "_content/BikeVille",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

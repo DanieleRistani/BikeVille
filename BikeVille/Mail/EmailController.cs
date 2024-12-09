@@ -17,7 +17,7 @@ namespace AuthJwt.Mail
                 var smtpClient = new SmtpClient("smtp.mailtrap.io")
                 {
                     Port = 2525,
-                    Credentials = new NetworkCredential("4e2a2918d1d033", "0c9cb1af6d3cf8"),
+                    Credentials = new NetworkCredential("a9b05977a60d8a", "1b1c4f40d81cec"),
                     EnableSsl = true,
                 };
 
@@ -48,7 +48,7 @@ namespace AuthJwt.Mail
                 var smtpClient = new SmtpClient("smtp.mailtrap.io")
                 {
                     Port = 2525,
-                    Credentials = new NetworkCredential("4e2a2918d1d033", "0c9cb1af6d3cf8"),
+                    Credentials = new NetworkCredential("a9b05977a60d8a", "1b1c4f40d81cec"),
                     EnableSsl = true,
                 };
 
@@ -79,7 +79,7 @@ namespace AuthJwt.Mail
                 var smtpClient = new SmtpClient("smtp.mailtrap.io")
                 {
                     Port = 2525,
-                    Credentials = new NetworkCredential("4e2a2918d1d033", "0c9cb1af6d3cf8"),
+                    Credentials = new NetworkCredential("a9b05977a60d8a", "1b1c4f40d81cec"),
                     EnableSsl = true,
                 };
 

@@ -25,7 +25,7 @@ namespace BikeVille.Entity.ProductControllers
         [HttpGet("Index")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-            return await _context.Products.Include(p=>p.ProductCategory).Include(p=>p.ProductModel).ThenInclude(pm=>pm.ProductModelProductDescriptions).ThenInclude(pmpd=>pmpd.ProductDescription).Include(p=>p.SalesOrderDetails).ToListAsync();
+            return await _context.Products.ToListAsync();
         }
 
         // GET: api/Products/5

@@ -32,7 +32,7 @@ namespace BikeVille.Entity.CustomerControllers
         [HttpGet("Details/{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(int id)
         {
-            var customer = await _context.Customers.Include(c => c.SalesOrderHeaders).ThenInclude(soh => soh.SalesOrderDetails).Include(c => c.CustomerAddresses).ThenInclude(ca => ca.Address).FirstOrDefaultAsync(c=>c.CustomerId==id);
+            var customer = await _context.Customers.Include(c => c.SalesOrderHeaders).ThenInclude(soh => soh.SalesOrderDetails).FirstOrDefaultAsync(c=>c.CustomerId==id);
 
             if (customer == null)
             {
@@ -41,6 +41,19 @@ namespace BikeVille.Entity.CustomerControllers
 
             return customer;
         }
+
+        //[HttpGet("Details/{id}")]
+        //public async Task<ActionResult<Customer>> GetCustomer(int id)
+        //{
+        //    var customer = await _context.Customers.Include(c => c.SalesOrderHeaders).ThenInclude(soh => soh.SalesOrderDetails).Include(c => c.CustomerAddresses).ThenInclude(ca => ca.Address).FirstOrDefaultAsync(c => c.CustomerId == id);
+
+        //    if (customer == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return customer;
+        //}
 
         // PUT: api/Customers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
