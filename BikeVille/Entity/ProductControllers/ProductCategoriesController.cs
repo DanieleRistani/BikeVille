@@ -28,6 +28,11 @@ namespace BikeVille.Entity.ProductControllers
         {
             return await _context.ProductCategories.Include(c=>c.Products).Include(c => c.InverseParentProductCategory).ThenInclude(ip=>ip.Products).ToListAsync();
         }
+        [HttpGet("IndexWhithOutProducts")]
+        public async Task<ActionResult<IEnumerable<ProductCategory>>> GetProductCategoriesWhithOutProducts()
+        {
+            return await _context.ProductCategories.ToListAsync();
+        }
 
         // GET: api/ProductCategories/5
         [HttpGet("Details/{id}")]

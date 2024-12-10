@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BikeVille.Entity;
 using BikeVille.Entity.EntityContext;
+using Microsoft.IdentityModel.Tokens;
 
 namespace BikeVille.Entity.ProductControllers
 {
@@ -102,8 +103,31 @@ namespace BikeVille.Entity.ProductControllers
         // POST: api/Products
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("Add")]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<ActionResult<Product>> PostProduct(ProductDto productDto)
         {
+            var product = new Product()
+            {
+                Name=productDto.Name,
+                ProductNumber=productDto.ProductNumber,
+                Color= productDto.Color,
+                StandardCost=productDto.StandardCost,
+                ListPrice=productDto.ListPrice,
+                Size=productDto.Size,
+                Weight=productDto.Weight,
+                ProductCategoryId = productDto.ProductCategoryId,
+                ProductModelId=productDto.ProductModelId,
+                SellStartDate=productDto.SellStartDate,
+                SellEndDate=productDto.SellEndDate,
+                DiscontinuedDate=null,
+                ThumbNailPhoto=null,
+                ThumbnailPhotoFileName=null,
+                Rowguid=new Guid(),
+                ModifiedDate=DateTime.Now,
+                ProductCategory=_context.ProductCategories.FirstOrDefault(c=>c.ProductCategoryId==productDto.ProductCategoryId),
+                ProductModel=_context.ProductModels.FirstOrDefault(c=>c.ProductModelId==productDto.ProductModelId),
+                
+            };
+
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 
@@ -114,17 +138,42 @@ namespace BikeVille.Entity.ProductControllers
         [HttpDelete("Delete/{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            // Retrieve the product including related sales order details
+            var product = await _context.Products
+                .Include(p => p.SalesOrderDetails) // Ensure you load the related SalesOrderDetails
+                .FirstOrDefaultAsync(p => p.ProductId == id);
+
             if (product == null)
             {
                 return NotFound();
             }
 
+            // Remove the related SalesOrderDetails first to prevent foreign key violation
+            _context.SalesOrderDetails.RemoveRange(product.SalesOrderDetails);
+
+            // Now, remove the product
             _context.Products.Remove(product);
+
+            // Save changes to the database
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
+        //[HttpDelete("Delete/{id}")]
+        //public async Task<IActionResult> DeleteProduct(int id)
+        //{
+        //    var product = await _context.Products.FindAsync(id);
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    _context.Products.Remove(product);
+        //    await _context.SaveChangesAsync();
+
+        //    return NoContent();
+        //}
 
         private bool ProductExists(int id)
         {
