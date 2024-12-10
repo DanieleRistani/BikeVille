@@ -33,32 +33,6 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductDto.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductDto.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\ProductDto.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwEYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:33:52.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductModelsController.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
-              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
-              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:11:42.611Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -76,6 +50,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductDto.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductDto.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductDto.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:33:52.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
+              "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
+              "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductModelsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:11:42.611Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductCategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductCategoriesController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA1wCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:11:42.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T09:11:42.948Z"
             },
             {
               "$type": "Document",
@@ -95,10 +92,9 @@
               "RelativeDocumentMoniker": "BikeVille\\Entity\\Product.cs",
               "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\Product.cs",
               "RelativeToolTip": "BikeVille\\Entity\\Product.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAYwDoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwF8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T12:41:02.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T12:41:02.944Z"
             },
             {
               "$type": "Document",
@@ -108,7 +104,7 @@
               "RelativeDocumentMoniker": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Daniele\\wa\\BikeVille\\back-end\\BikeVille\\BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
               "RelativeToolTip": "BikeVille\\Entity\\ProductControllers\\ProductsController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAA1wHwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T12:40:05.53Z",
               "EditorCaption": ""

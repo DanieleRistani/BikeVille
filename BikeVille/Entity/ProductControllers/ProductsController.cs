@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using BikeVille.Entity;
 using BikeVille.Entity.EntityContext;
 using Microsoft.IdentityModel.Tokens;
+using System.Drawing;
 
 namespace BikeVille.Entity.ProductControllers
 {
@@ -72,12 +73,28 @@ namespace BikeVille.Entity.ProductControllers
         // PUT: api/Products/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("Update/{id}")]
-        public async Task<IActionResult> PutProduct(int id, Product product)
+        public async Task<IActionResult> PutProduct(int id, ProductDto productDto)
         {
+            Product product = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+
+
             if (id != product.ProductId)
             {
                 return BadRequest();
             }
+
+
+            product.Name = productDto.Name;
+            product.ProductNumber = productDto.ProductNumber;
+            product.Color = productDto.Color;
+            product.StandardCost = productDto.StandardCost;
+            product.ListPrice = productDto.ListPrice;
+            product.Size = productDto.Size;
+            product.Weight = productDto.Weight;
+            product.ProductCategoryId = productDto.ProductCategoryId;
+            product.ProductModelId = productDto.ProductModelId;
+            product.SellStartDate = productDto.SellStartDate;
+            product.SellEndDate = productDto.SellEndDate;
 
             _context.Entry(product).State = EntityState.Modified;
 
